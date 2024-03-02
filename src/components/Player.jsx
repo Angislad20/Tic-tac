@@ -17,7 +17,7 @@ export default function Player({props, isActive}) {
         setEditName(e.target.value);
     }
     return(
-        <li className={isActive ? 'active' : un}>
+        <li className={isActive ? 'active' : undefined}>
             <span className="player">
                 {isEditing ?
                     (<input 
